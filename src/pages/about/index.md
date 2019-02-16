@@ -3,6 +3,8 @@ templateKey: 'about-page'
 path: /about
 title: About our values
 ---
+![Trees in the sunlight](/img/test.jpg "Fall trees colored in the brilliant sunlight")
+
 ### Our Mission
 We are a Non-Profit Charitable Organization approved and incorporated in the State of Florida.
 Our Mission is to bring eye care to those in need who don’t have the resources to afford a simple pair of glasses and provide education for proper care of their eyes, to insure better eyesight through the years. 
