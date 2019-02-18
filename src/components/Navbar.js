@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+// import github from '../img/github-icon.svg'
+// import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
 
@@ -59,9 +59,9 @@ const Navbar = class extends React.Component {
         <Link className="navbar-item" to="/contact">
           Contact
         </Link>
-        <Link className="navbar-item" to="https://www.paypal.com/us/home">
+        <a href="https://www.paypal.com/us/home" target="_blank" rel="noopener noreferrer" className="navbar-item">
           Donate
-        </Link>
+        </a>
         {/* <Link className="navbar-item" to="/contact/examples">
           Form Examples
         </Link> */}
