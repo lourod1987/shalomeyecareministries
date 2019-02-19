@@ -2,20 +2,29 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import banner from '../../static/img/multitude-of-flowers.jpg'
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    // const { data } = this.props
+    // const { edges: posts } = data.allMarkdownRemark
 
     return (
       <Layout>
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
+              <img src={banner}></img>
+              <h2 className="has-text-weight-bold is-size-2">Bringing clear vision to those in need</h2>
             </div>
-            {posts
+            <div>
+              <h3>We've visited Cuba, Jamaica, Puerto Rico and more...</h3>
+              <p>
+                To assist with vision assessments, corrective lenses, and provide health information on
+                eye care and preventative checkups.
+              </p>
+            </div>
+            {/* {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
@@ -38,7 +47,7 @@ export default class IndexPage extends React.Component {
                     </Link>
                   </p>
                 </div>
-              ))}
+              ))} */}
           </div>
         </section>
       </Layout>
