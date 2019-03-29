@@ -3,7 +3,7 @@ templateKey: 'about-page'
 path: /about
 title: About our values
 ---
-![Trees in the sunlight](/img/test-1080.png "Fall trees colored in the brilliant sunlight")
+![Trees in the sunlight](/img/test-1080.jpg "Fall trees colored in the brilliant sunlight")
 
 ### Our Mission
 We are a Non-Profit Charitable Organization approved and incorporated in the State of Florida.

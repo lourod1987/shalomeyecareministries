@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import banner from '../../static/img/multitude-of-flowers-1080.png'
+import banner from '../../static/img/multitude-of-flowers-1080.jpg'
 
 export default class IndexPage extends React.Component {
   render() {
