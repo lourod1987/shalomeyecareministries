@@ -14,7 +14,8 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <img src={banner}></img>
+              {/* <img src={banner}></img> */}
+              <div className="main"></div>
               <h2 className="has-text-weight-bold is-size-2">Bringing clear vision to those in need</h2>
             </div>
             <div>
